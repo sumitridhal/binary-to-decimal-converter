@@ -9,7 +9,8 @@ As the decimal number is a weighted number, converting from decimal to binary (b
 Representation of a Binary Number
 
 <table>
-<thead><tr>
+<thead>
+<tr>
 <td>MSB</td>
 <td colspan="7">Binary Digit</td>
 <td>LSB</td>
@@ -39,3 +40,8 @@ Representation of a Binary Number
 <td>1</td>
 </tr>
 </tbody></table>
+
+## Decimal to Binary
+**Divide by 2**
+
+The Divide by 2 algorithm assumes that we start with an integer greater than 0. A simple iteration then continually divides the decimal number by 2 and keeps track of the remainder. The first division by 2 gives information as to whether the value is even or odd. An even value will have a remainder of 0. It will have the digit 0 in the ones place. An odd value will have a remainder of 1 and will have the digit 1 in the ones place. We think about building our binary number as a sequence of digits; the first remainder we compute will actually be the last digit in the sequence.
