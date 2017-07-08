@@ -9,7 +9,7 @@ As the decimal number is a weighted number, converting from decimal to binary (b
 Representation of a Binary Number
 
 |MSB|	Binary Digit	|LSB|
-|---|-------|-------|---|
+|---|---------------|---|
 
 |28|27|26|25|24|23|22|21|20|
 256|128|64|32|16|8|4|2|1|
