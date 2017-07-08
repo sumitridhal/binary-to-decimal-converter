@@ -8,7 +8,32 @@ As the decimal number is a weighted number, converting from decimal to binary (b
 
 Representation of a Binary Number
 
-|MSB <td colspan=3>Binary Digit	|LSB|
-|-----------------------------------|
-|28|27|26|25|24|23|22|21|20|
-256|128|64|32|16|8|4|2|1|
+<table>
+<tbody><tr>
+<td>MSB</td>
+<td colspan="7">Binary Digit</td>
+<td>LSB</td>
+</tr>
+<tr>
+<td style="width:50px;">2<sup>8</sup></td>
+<td style="width:50px;">2<sup>7</sup></td>
+<td style="width:50px;">2<sup>6</sup></td>
+<td style="width:50px;">2<sup>5</sup></td>
+<td style="width:50px;">2<sup>4</sup></td>
+<td style="width:50px;">2<sup>3</sup></td>
+<td style="width:50px;">2<sup>2</sup></td>
+<td style="width:50px;">2<sup>1</sup></td>
+<td style="width:50px;">2<sup>0</sup></td>
+</tr>
+<tr>
+<td>256</td>
+<td>128</td>
+<td>64</td>
+<td>32</td>
+<td>16</td>
+<td>8</td>
+<td>4</td>
+<td>2</td>
+<td>1</td>
+</tr>
+</tbody></table>
