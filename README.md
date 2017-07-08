@@ -9,11 +9,13 @@ As the decimal number is a weighted number, converting from decimal to binary (b
 Representation of a Binary Number
 
 <table>
-<tbody><tr>
+<thead><tr>
 <td>MSB</td>
 <td colspan="7">Binary Digit</td>
 <td>LSB</td>
 </tr>
+</thead>
+</tbody>
 <tr>
 <td style="width:50px;">2<sup>8</sup></td>
 <td style="width:50px;">2<sup>7</sup></td>
